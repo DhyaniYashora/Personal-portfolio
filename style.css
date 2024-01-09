@@ -8,8 +8,8 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: #080808; /*background color*/
-    color: #fff; /*text color*/
+    background: #080808;
+    color: #fff; 
 }
 /*---header---*/
 #header{
@@ -374,4 +374,11 @@ nav .fa-solid{
     color: #61b752;
     margin-top: -40px;
     display: block;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 0.3fr 0.9fr; 
+}
+.col-4, .col-8 {
+    padding: 1px;
 }
